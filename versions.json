@@ -1,5 +1,5 @@
 {
-  "latest": "v1.0.18",
+  "latest": "v1.0.19",
   "versions": [
     {
       "version": "v1.0.8",
@@ -471,6 +471,79 @@
           "url": "patches/patch_v1.0.9_v1.0.18.zip",
           "size": 2748380,
           "sha256": "63c7162d6adefa308883b03d352d22258de3f382f02a4edfe02643f72d2cd5e4"
+        }
+      }
+    },
+    {
+      "version": "v1.0.19",
+      "date": "2026-09-02",
+      "notes": "删除 ComfyUI 桌面版（官方安装包）更新检测功能，简化更新页面。",
+      "snapshot_url": "snapshots/v1.0.19.zip",
+      "patches": {
+        "v1.0.10": {
+          "url": "patches/patch_v1.0.10_v1.0.19.zip",
+          "size": 2745960,
+          "sha256": "e2b1ef7aacfefe8f5c3914387c8f6da4e60d4290a516b5730185d16479cf4947"
+        },
+        "v1.0.11": {
+          "url": "patches/patch_v1.0.11_v1.0.19.zip",
+          "size": 2745960,
+          "sha256": "e2b1ef7aacfefe8f5c3914387c8f6da4e60d4290a516b5730185d16479cf4947"
+        },
+        "v1.0.12": {
+          "url": "patches/patch_v1.0.12_v1.0.19.zip",
+          "size": 2745960,
+          "sha256": "e2b1ef7aacfefe8f5c3914387c8f6da4e60d4290a516b5730185d16479cf4947"
+        },
+        "v1.0.13": {
+          "url": "patches/patch_v1.0.13_v1.0.19.zip",
+          "size": 1154270,
+          "sha256": "e9aae5dddf83ea83d536c4d73a98d0007b3234c8f3f511ae132b09cee3c79c60"
+        },
+        "v1.0.14": {
+          "url": "patches/patch_v1.0.14_v1.0.19.zip",
+          "size": 677139,
+          "sha256": "9e053ad043d21074cb68b31d568fa0fa29eac5087a3d5952ea924f28ae6cb29a"
+        },
+        "v1.0.15": {
+          "url": "patches/patch_v1.0.15_v1.0.19.zip",
+          "size": 661336,
+          "sha256": "10d4134d3d43651bfedd69f21aacf90bee8910e019ca113fe7450458874e8854"
+        },
+        "v1.0.16": {
+          "url": "patches/patch_v1.0.16_v1.0.19.zip",
+          "size": 549807,
+          "sha256": "ba2ef30d8b3369b5e1c81ed65bcf75d07fcfc95d20cb9babe230408d56b16ccd"
+        },
+        "v1.0.17": {
+          "url": "patches/patch_v1.0.17_v1.0.19.zip",
+          "size": 549807,
+          "sha256": "ba2ef30d8b3369b5e1c81ed65bcf75d07fcfc95d20cb9babe230408d56b16ccd"
+        },
+        "v1.0.18": {
+          "url": "patches/patch_v1.0.18_v1.0.19.zip",
+          "size": 549807,
+          "sha256": "ba2ef30d8b3369b5e1c81ed65bcf75d07fcfc95d20cb9babe230408d56b16ccd"
+        },
+        "v1.0.6": {
+          "url": "patches/patch_v1.0.6_v1.0.19.zip",
+          "size": 2750276,
+          "sha256": "ec96e06874983b37cca0c50c1d008dbbba431c0b4f06124ab55297e5ab2cb6fa"
+        },
+        "v1.0.7": {
+          "url": "patches/patch_v1.0.7_v1.0.19.zip",
+          "size": 2750276,
+          "sha256": "8aeacaeecb9864a247c16662dc8562993dab27d1eae6f65bc2eab2a60d22942b"
+        },
+        "v1.0.8": {
+          "url": "patches/patch_v1.0.8_v1.0.19.zip",
+          "size": 2745960,
+          "sha256": "70f66658691081fdef2feed031b20df417779b38cf208ca1e7957d694dc5e464"
+        },
+        "v1.0.9": {
+          "url": "patches/patch_v1.0.9_v1.0.19.zip",
+          "size": 2745960,
+          "sha256": "70f66658691081fdef2feed031b20df417779b38cf208ca1e7957d694dc5e464"
         }
       }
     }

@@ -1,6 +1,6 @@
 {
-  "version": "v1.0.18",
-  "notes": "v1.0.18：赞助对话框提示文字改为一行显示；延续 v1.0.17 赞助按钮、v1.0.16 任务栏图标与 INPUT/OUTPUT 相对路径、v1.0.15 增量更新零误删加固。",
+  "version": "v1.0.19",
+  "notes": "删除 ComfyUI 桌面版（官方安装包）更新检测功能，简化更新页面。",
   "base_url": "https://as36160686-andy.github.io/xiaoneng-comfyui-updater/",
   "mirrors": [
     "https://raw.githubusercontent.com/as36160686-andy/xiaoneng-comfyui-updater/main"
@@ -9,87 +9,94 @@
   "full_zip_urls": [],
   "patches": {
     "v1.0.10": {
-      "url": "patches/patch_v1.0.10_v1.0.18.zip",
-      "size": 2748380,
-      "sha256": "479c8e62d89c464d0066a586bc05efd92754a067c8ad9d75d81baa9c6c28b33d",
-      "changed": 12,
+      "url": "patches/patch_v1.0.10_v1.0.19.zip",
+      "size": 2745960,
+      "sha256": "e2b1ef7aacfefe8f5c3914387c8f6da4e60d4290a516b5730185d16479cf4947",
+      "changed": 11,
       "deleted": 0
     },
     "v1.0.11": {
-      "url": "patches/patch_v1.0.11_v1.0.18.zip",
-      "size": 2748380,
-      "sha256": "63c7162d6adefa308883b03d352d22258de3f382f02a4edfe02643f72d2cd5e4",
-      "changed": 12,
+      "url": "patches/patch_v1.0.11_v1.0.19.zip",
+      "size": 2745960,
+      "sha256": "e2b1ef7aacfefe8f5c3914387c8f6da4e60d4290a516b5730185d16479cf4947",
+      "changed": 11,
       "deleted": 0
     },
     "v1.0.12": {
-      "url": "patches/patch_v1.0.12_v1.0.18.zip",
-      "size": 2748380,
-      "sha256": "63c7162d6adefa308883b03d352d22258de3f382f02a4edfe02643f72d2cd5e4",
-      "changed": 12,
+      "url": "patches/patch_v1.0.12_v1.0.19.zip",
+      "size": 2745960,
+      "sha256": "e2b1ef7aacfefe8f5c3914387c8f6da4e60d4290a516b5730185d16479cf4947",
+      "changed": 11,
       "deleted": 0
     },
     "v1.0.13": {
-      "url": "patches/patch_v1.0.13_v1.0.18.zip",
-      "size": 1154909,
-      "sha256": "53faf8e477a798420e246909c285bac9c5c2cc1759b7165db0aa6e9bed6ac385",
+      "url": "patches/patch_v1.0.13_v1.0.19.zip",
+      "size": 1154270,
+      "sha256": "e9aae5dddf83ea83d536c4d73a98d0007b3234c8f3f511ae132b09cee3c79c60",
       "changed": 9,
-      "deleted": 0
+      "deleted": 1
     },
     "v1.0.14": {
-      "url": "patches/patch_v1.0.14_v1.0.18.zip",
-      "size": 677778,
-      "sha256": "dffcb8f95861e69ffa79ced635ecc8805ad1a9207238590b59336a498052e15a",
+      "url": "patches/patch_v1.0.14_v1.0.19.zip",
+      "size": 677139,
+      "sha256": "9e053ad043d21074cb68b31d568fa0fa29eac5087a3d5952ea924f28ae6cb29a",
       "changed": 5,
-      "deleted": 0
+      "deleted": 1
     },
     "v1.0.15": {
-      "url": "patches/patch_v1.0.15_v1.0.18.zip",
-      "size": 661975,
-      "sha256": "0f0f3bb33acb162a9ed1f7fad504ba50d2d002b3fd9a8288fd78efc8bf22d89e",
+      "url": "patches/patch_v1.0.15_v1.0.19.zip",
+      "size": 661336,
+      "sha256": "10d4134d3d43651bfedd69f21aacf90bee8910e019ca113fe7450458874e8854",
       "changed": 3,
-      "deleted": 0
+      "deleted": 1
     },
     "v1.0.16": {
-      "url": "patches/patch_v1.0.16_v1.0.18.zip",
-      "size": 550446,
-      "sha256": "ff8640cfac41e53e0620ee0b4609f6b90008648bd509fd6d50168635cedf4dc2",
+      "url": "patches/patch_v1.0.16_v1.0.19.zip",
+      "size": 549807,
+      "sha256": "ba2ef30d8b3369b5e1c81ed65bcf75d07fcfc95d20cb9babe230408d56b16ccd",
       "changed": 2,
-      "deleted": 0
+      "deleted": 1
     },
     "v1.0.17": {
-      "url": "patches/patch_v1.0.17_v1.0.18.zip",
-      "size": 550446,
-      "sha256": "ff8640cfac41e53e0620ee0b4609f6b90008648bd509fd6d50168635cedf4dc2",
+      "url": "patches/patch_v1.0.17_v1.0.19.zip",
+      "size": 549807,
+      "sha256": "ba2ef30d8b3369b5e1c81ed65bcf75d07fcfc95d20cb9babe230408d56b16ccd",
       "changed": 2,
-      "deleted": 0
+      "deleted": 1
+    },
+    "v1.0.18": {
+      "url": "patches/patch_v1.0.18_v1.0.19.zip",
+      "size": 549807,
+      "sha256": "ba2ef30d8b3369b5e1c81ed65bcf75d07fcfc95d20cb9babe230408d56b16ccd",
+      "changed": 2,
+      "deleted": 1
     },
     "v1.0.6": {
-      "url": "patches/patch_v1.0.6_v1.0.18.zip",
-      "size": 2752696,
-      "sha256": "475743717bf6787eaa359bcc40d0bbd625499ff7e4e62653e458984e2ebc750b",
-      "changed": 13,
+      "url": "patches/patch_v1.0.6_v1.0.19.zip",
+      "size": 2750276,
+      "sha256": "ec96e06874983b37cca0c50c1d008dbbba431c0b4f06124ab55297e5ab2cb6fa",
+      "changed": 12,
       "deleted": 0
     },
     "v1.0.7": {
-      "url": "patches/patch_v1.0.7_v1.0.18.zip",
-      "size": 2752696,
-      "sha256": "475743717bf6787eaa359bcc40d0bbd625499ff7e4e62653e458984e2ebc750b",
-      "changed": 13,
+      "url": "patches/patch_v1.0.7_v1.0.19.zip",
+      "size": 2750276,
+      "sha256": "8aeacaeecb9864a247c16662dc8562993dab27d1eae6f65bc2eab2a60d22942b",
+      "changed": 12,
       "deleted": 0
     },
     "v1.0.8": {
-      "url": "patches/patch_v1.0.8_v1.0.18.zip",
-      "size": 2748380,
-      "sha256": "63c7162d6adefa308883b03d352d22258de3f382f02a4edfe02643f72d2cd5e4",
-      "changed": 12,
+      "url": "patches/patch_v1.0.8_v1.0.19.zip",
+      "size": 2745960,
+      "sha256": "70f66658691081fdef2feed031b20df417779b38cf208ca1e7957d694dc5e464",
+      "changed": 11,
       "deleted": 0
     },
     "v1.0.9": {
-      "url": "patches/patch_v1.0.9_v1.0.18.zip",
-      "size": 2748380,
-      "sha256": "63c7162d6adefa308883b03d352d22258de3f382f02a4edfe02643f72d2cd5e4",
-      "changed": 12,
+      "url": "patches/patch_v1.0.9_v1.0.19.zip",
+      "size": 2745960,
+      "sha256": "70f66658691081fdef2feed031b20df417779b38cf208ca1e7957d694dc5e464",
+      "changed": 11,
       "deleted": 0
     }
   }
