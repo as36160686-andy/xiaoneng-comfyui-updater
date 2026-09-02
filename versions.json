@@ -1,5 +1,5 @@
 {
-  "latest": "v1.0.13",
+  "latest": "v1.0.14",
   "versions": [
     {
       "version": "v1.0.8",
@@ -181,6 +181,54 @@
           "url": "patches/patch_v1.0.9_v1.0.13.zip",
           "size": 2159701,
           "sha256": "24cf5de6f366b7ac69b189a18463c13d87289a5f5e91496341554c6c8bfa8e12"
+        }
+      }
+    },
+    {
+      "version": "v1.0.14",
+      "date": "2026-09-02",
+      "notes": "v1.0.14：任务栏图标与桌面/EXE一致；新增 INPUT/OUTPUT 目录手动设置（默认/选择）；首页新增更新提示横幅（区分启动器更新/内核更新）。",
+      "snapshot_url": "snapshots/v1.0.14.zip",
+      "patches": {
+        "v1.0.10": {
+          "url": "patches/patch_v1.0.10_v1.0.14.zip",
+          "size": 2629911,
+          "sha256": "90b6f2124ae2a71f950dafc7799df29cc00e2c822c92963df46b2abe17df9ad0"
+        },
+        "v1.0.11": {
+          "url": "patches/patch_v1.0.11_v1.0.14.zip",
+          "size": 2629911,
+          "sha256": "90b6f2124ae2a71f950dafc7799df29cc00e2c822c92963df46b2abe17df9ad0"
+        },
+        "v1.0.12": {
+          "url": "patches/patch_v1.0.12_v1.0.14.zip",
+          "size": 2619812,
+          "sha256": "af0d6ff55e65c495d18d1c1f5e4c44dd38e8144d26b651bd5341b71cb8b28ab8"
+        },
+        "v1.0.13": {
+          "url": "patches/patch_v1.0.13_v1.0.14.zip",
+          "size": 1026341,
+          "sha256": "43fe4f0453b00b544368a9a21a782f976ae4dfbc197cfda20c987ccada81c427"
+        },
+        "v1.0.6": {
+          "url": "patches/patch_v1.0.6_v1.0.14.zip",
+          "size": 2651474,
+          "sha256": "519238b8eb696ebecd582a213658e292230471601e988d7c4740933a30cbd41a"
+        },
+        "v1.0.7": {
+          "url": "patches/patch_v1.0.7_v1.0.14.zip",
+          "size": 2651474,
+          "sha256": "519238b8eb696ebecd582a213658e292230471601e988d7c4740933a30cbd41a"
+        },
+        "v1.0.8": {
+          "url": "patches/patch_v1.0.8_v1.0.14.zip",
+          "size": 2629911,
+          "sha256": "bc88d13a2529cadf9f175ccb5d7594690a2cc953b6b1539635118ec5352d6d03"
+        },
+        "v1.0.9": {
+          "url": "patches/patch_v1.0.9_v1.0.14.zip",
+          "size": 2629911,
+          "sha256": "bc88d13a2529cadf9f175ccb5d7594690a2cc953b6b1539635118ec5352d6d03"
         }
       }
     }
