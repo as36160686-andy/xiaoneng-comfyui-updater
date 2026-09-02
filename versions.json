@@ -1,5 +1,5 @@
 {
-  "latest": "v1.0.16",
+  "latest": "v1.0.17",
   "versions": [
     {
       "version": "v1.0.8",
@@ -340,6 +340,69 @@
           "url": "patches/patch_v1.0.9_v1.0.16.zip",
           "size": 2748486,
           "sha256": "8ce0e031e66b15af1af60638d3d635269cd19553aaeb4ea3842d74f74552b5ed"
+        }
+      }
+    },
+    {
+      "version": "v1.0.17",
+      "date": "2026-09-02",
+      "notes": "v1.0.17：赞助按钮改为正常按钮（不再直接显示二维码图标），点击弹出对话框展示赞助二维码；延续 v1.0.16 的 INPUT/OUTPUT 相对路径显示、任务栏图标修复、增量更新零误删加固。",
+      "snapshot_url": "snapshots/v1.0.17.zip",
+      "patches": {
+        "v1.0.10": {
+          "url": "patches/patch_v1.0.10_v1.0.17.zip",
+          "size": 2748383,
+          "sha256": "7aff9359014b11d0a5093e1e5ff57bd82e014ff51563e17ec52454f45709c570"
+        },
+        "v1.0.11": {
+          "url": "patches/patch_v1.0.11_v1.0.17.zip",
+          "size": 2748383,
+          "sha256": "7aff9359014b11d0a5093e1e5ff57bd82e014ff51563e17ec52454f45709c570"
+        },
+        "v1.0.12": {
+          "url": "patches/patch_v1.0.12_v1.0.17.zip",
+          "size": 2748383,
+          "sha256": "7aff9359014b11d0a5093e1e5ff57bd82e014ff51563e17ec52454f45709c570"
+        },
+        "v1.0.13": {
+          "url": "patches/patch_v1.0.13_v1.0.17.zip",
+          "size": 1154912,
+          "sha256": "aa27ab661899880cf8bc2e03e26afa401c51b57d72052cf45d3c940787fd1661"
+        },
+        "v1.0.14": {
+          "url": "patches/patch_v1.0.14_v1.0.17.zip",
+          "size": 677781,
+          "sha256": "daf435f099cd7efec58fffcbc020c971e853033b0cab41ff477d267c44990a5e"
+        },
+        "v1.0.15": {
+          "url": "patches/patch_v1.0.15_v1.0.17.zip",
+          "size": 661978,
+          "sha256": "117e9f4409318617bea7518f8de03e0199ea48201f21e62c9d1fe066800b34e5"
+        },
+        "v1.0.16": {
+          "url": "patches/patch_v1.0.16_v1.0.17.zip",
+          "size": 550449,
+          "sha256": "31e395847724dbb1192e8f3bb543a213d6944820e11c76e1ef39d8f99fea591a"
+        },
+        "v1.0.6": {
+          "url": "patches/patch_v1.0.6_v1.0.17.zip",
+          "size": 2752699,
+          "sha256": "931256ac7bcf851786c55172df821928d3f62601e8e9c94803b2a4e0f8e57dba"
+        },
+        "v1.0.7": {
+          "url": "patches/patch_v1.0.7_v1.0.17.zip",
+          "size": 2752699,
+          "sha256": "931256ac7bcf851786c55172df821928d3f62601e8e9c94803b2a4e0f8e57dba"
+        },
+        "v1.0.8": {
+          "url": "patches/patch_v1.0.8_v1.0.17.zip",
+          "size": 2748383,
+          "sha256": "7aff9359014b11d0a5093e1e5ff57bd82e014ff51563e17ec52454f45709c570"
+        },
+        "v1.0.9": {
+          "url": "patches/patch_v1.0.9_v1.0.17.zip",
+          "size": 2748383,
+          "sha256": "7aff9359014b11d0a5093e1e5ff57bd82e014ff51563e17ec52454f45709c570"
         }
       }
     }
