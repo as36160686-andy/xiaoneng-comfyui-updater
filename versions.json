@@ -1,5 +1,5 @@
 {
-  "latest": "v1.0.20",
+  "latest": "v1.0.21",
   "versions": [
     {
       "version": "v1.0.8",
@@ -622,6 +622,89 @@
           "url": "patches/patch_v1.0.9_v1.0.20.zip",
           "size": 2746483,
           "sha256": "d734f21d0be225199a863039ada55584af341ee214a7709305c2cd653115fc8a"
+        }
+      }
+    },
+    {
+      "version": "v1.0.21",
+      "date": "2026-09-02",
+      "notes": "全面清理迁移后残留旧路径，新增 settings.json 路径清洗与 QFileDialog 安全回退，修复选择 input/output 目录时弹出位置不可用的问题",
+      "snapshot_url": "snapshots/v1.0.21.zip",
+      "patches": {
+        "v1.0.10": {
+          "url": "patches/patch_v1.0.10_v1.0.21.zip",
+          "size": 2748566,
+          "sha256": "4ed96def2f9c39c523ec1f1b2bccadb624e587c5b2d99c0e45c4139d0004634f"
+        },
+        "v1.0.11": {
+          "url": "patches/patch_v1.0.11_v1.0.21.zip",
+          "size": 2748566,
+          "sha256": "4ed96def2f9c39c523ec1f1b2bccadb624e587c5b2d99c0e45c4139d0004634f"
+        },
+        "v1.0.12": {
+          "url": "patches/patch_v1.0.12_v1.0.21.zip",
+          "size": 2748566,
+          "sha256": "4ed96def2f9c39c523ec1f1b2bccadb624e587c5b2d99c0e45c4139d0004634f"
+        },
+        "v1.0.13": {
+          "url": "patches/patch_v1.0.13_v1.0.21.zip",
+          "size": 1156876,
+          "sha256": "e05b0812ba18ce5c4f3682db795f377af18b7e4b675ab61e5d2caf1ebec042c7"
+        },
+        "v1.0.14": {
+          "url": "patches/patch_v1.0.14_v1.0.21.zip",
+          "size": 692615,
+          "sha256": "3ce25f6e9491bca458b1d8ada9adca2f277bbb6c33645d7d0686815d3668d680"
+        },
+        "v1.0.15": {
+          "url": "patches/patch_v1.0.15_v1.0.21.zip",
+          "size": 676812,
+          "sha256": "a5c89109c880dcda70162d47eabb6933faca565f98027bdf0769e10805b9e675"
+        },
+        "v1.0.16": {
+          "url": "patches/patch_v1.0.16_v1.0.21.zip",
+          "size": 565283,
+          "sha256": "3693ae6f58f0369779e0be4b5a2232a7c2627aa523b12f48a323763ab2327638"
+        },
+        "v1.0.17": {
+          "url": "patches/patch_v1.0.17_v1.0.21.zip",
+          "size": 565283,
+          "sha256": "3693ae6f58f0369779e0be4b5a2232a7c2627aa523b12f48a323763ab2327638"
+        },
+        "v1.0.18": {
+          "url": "patches/patch_v1.0.18_v1.0.21.zip",
+          "size": 565283,
+          "sha256": "3693ae6f58f0369779e0be4b5a2232a7c2627aa523b12f48a323763ab2327638"
+        },
+        "v1.0.19": {
+          "url": "patches/patch_v1.0.19_v1.0.21.zip",
+          "size": 565255,
+          "sha256": "948203eb270674550722033992f0ac369dc45eea3e333380f5b4de65efdfee5e"
+        },
+        "v1.0.20": {
+          "url": "patches/patch_v1.0.20_v1.0.21.zip",
+          "size": 552382,
+          "sha256": "0ae81dbfabea3c9d5864fd7a377e45334450e04c2ce9fe5f68d1b622e07b846e"
+        },
+        "v1.0.6": {
+          "url": "patches/patch_v1.0.6_v1.0.21.zip",
+          "size": 2752882,
+          "sha256": "2afd683b16399e97856cd64b3c14c4fb870e03965fcc5f755d29b455b86fa441"
+        },
+        "v1.0.7": {
+          "url": "patches/patch_v1.0.7_v1.0.21.zip",
+          "size": 2752882,
+          "sha256": "2afd683b16399e97856cd64b3c14c4fb870e03965fcc5f755d29b455b86fa441"
+        },
+        "v1.0.8": {
+          "url": "patches/patch_v1.0.8_v1.0.21.zip",
+          "size": 2748566,
+          "sha256": "4ed96def2f9c39c523ec1f1b2bccadb624e587c5b2d99c0e45c4139d0004634f"
+        },
+        "v1.0.9": {
+          "url": "patches/patch_v1.0.9_v1.0.21.zip",
+          "size": 2748566,
+          "sha256": "8069cdedde11ba1279a196e7a140be3f3367c8e652c787682461637dea5faca6"
         }
       }
     }
