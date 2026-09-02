@@ -1207,107 +1207,107 @@
         "v1.0.10": {
           "url": "patches/patch_v1.0.10_v1.0.27.zip",
           "size": 704163,
-          "sha256": "70035d705042d6c98aeb97139400f7828b1616b89981bf82724d1eeefc076ec4"
+          "sha256": "23f8a32053d3cdc6bb1312321ac12f7174150c82f290551bbf5868642b78a118"
         },
         "v1.0.11": {
           "url": "patches/patch_v1.0.11_v1.0.27.zip",
           "size": 704163,
-          "sha256": "70035d705042d6c98aeb97139400f7828b1616b89981bf82724d1eeefc076ec4"
+          "sha256": "23f8a32053d3cdc6bb1312321ac12f7174150c82f290551bbf5868642b78a118"
         },
         "v1.0.12": {
           "url": "patches/patch_v1.0.12_v1.0.27.zip",
           "size": 704163,
-          "sha256": "70035d705042d6c98aeb97139400f7828b1616b89981bf82724d1eeefc076ec4"
+          "sha256": "23f8a32053d3cdc6bb1312321ac12f7174150c82f290551bbf5868642b78a118"
         },
         "v1.0.13": {
           "url": "patches/patch_v1.0.13_v1.0.27.zip",
           "size": 704191,
-          "sha256": "f56d48da51b05c89919e9c9f2f89fb2c52ea469a7730aa548d996015d0e4d9a3"
+          "sha256": "0146d25260e14f2ab8c4ad1bbe9b50d8fe9bc0696d2f85cfe3d9f5c5020ac010"
         },
         "v1.0.14": {
           "url": "patches/patch_v1.0.14_v1.0.27.zip",
           "size": 694600,
-          "sha256": "ec733b2140e63cec55ee99f1707d0b99595cca5bd9ea7735bbbc3e22a2a46b6e"
+          "sha256": "13b56b4695ae92c61d35c18f5d414fc1c714916729e2aa39f6643d51f4e9d223"
         },
         "v1.0.15": {
           "url": "patches/patch_v1.0.15_v1.0.27.zip",
           "size": 689236,
-          "sha256": "e1f37f02421bd639f5bfc83d4b67bc4969ff4d72f5f4a992bd4209dd1380ddc4"
+          "sha256": "0fd3432dc3e20567f5c90efa0a786e38425ca60ceaf51ce3736d7ca92b50d20b"
         },
         "v1.0.16": {
           "url": "patches/patch_v1.0.16_v1.0.27.zip",
           "size": 577707,
-          "sha256": "001afc5742f11e661ab5131aff9f3e92e5cc6002bf1424ad45493be97954b685"
+          "sha256": "47689e9261fc032251eda1776abba7cd723b2bab8d4d284d353eab0dad5a2dcd"
         },
         "v1.0.17": {
           "url": "patches/patch_v1.0.17_v1.0.27.zip",
           "size": 577707,
-          "sha256": "001afc5742f11e661ab5131aff9f3e92e5cc6002bf1424ad45493be97954b685"
+          "sha256": "47689e9261fc032251eda1776abba7cd723b2bab8d4d284d353eab0dad5a2dcd"
         },
         "v1.0.18": {
           "url": "patches/patch_v1.0.18_v1.0.27.zip",
           "size": 577707,
-          "sha256": "001afc5742f11e661ab5131aff9f3e92e5cc6002bf1424ad45493be97954b685"
+          "sha256": "47689e9261fc032251eda1776abba7cd723b2bab8d4d284d353eab0dad5a2dcd"
         },
         "v1.0.19": {
           "url": "patches/patch_v1.0.19_v1.0.27.zip",
           "size": 577679,
-          "sha256": "fd6812167579197449e9bffa8ff9419788f69300b33e5ed45755da180bf731b3"
+          "sha256": "71fa8eef3799b76f7e36d310b3fa89b95aa6ce2d1eb95848b08de38a7a58c668"
         },
         "v1.0.20": {
           "url": "patches/patch_v1.0.20_v1.0.27.zip",
           "size": 564806,
-          "sha256": "b1841d89cbb7f56ce90b75207c961e52db617a9d3a4b144038702be2bd10a9e4"
+          "sha256": "741b17e8cbaa0739eecc1cbb7cb118d54b0e3a1418d12fe1825f9c9b53d26e7a"
         },
         "v1.0.21": {
           "url": "patches/patch_v1.0.21_v1.0.27.zip",
           "size": 563760,
-          "sha256": "b84e1df5004588eb16c8b5f7ffd3476f86af9ebc23187e1e54c174f06d724939"
+          "sha256": "beaf4e94fba15d54ecf31c6407d09e6a4bdf112b50a42078476fbee662903529"
         },
         "v1.0.22": {
           "url": "patches/patch_v1.0.22_v1.0.27.zip",
           "size": 563760,
-          "sha256": "b84e1df5004588eb16c8b5f7ffd3476f86af9ebc23187e1e54c174f06d724939"
+          "sha256": "beaf4e94fba15d54ecf31c6407d09e6a4bdf112b50a42078476fbee662903529"
         },
         "v1.0.23": {
           "url": "patches/patch_v1.0.23_v1.0.27.zip",
           "size": 568367,
-          "sha256": "daf927004cfc85967a09a682b108dcf23e50a0444ec4aa399bb7b1b1a3196ec7"
+          "sha256": "b26589db4a40047aee41184711cb5b1e2506a63195095ad5635f105a37457d2b"
         },
         "v1.0.24": {
           "url": "patches/patch_v1.0.24_v1.0.27.zip",
           "size": 568339,
-          "sha256": "a83383d96570f6c1ffcbaeb37932857409ccd3330963805275f2a884805b1ea8"
+          "sha256": "9964230babf6def14a37b7143a27a5ede092bd8493b1ed83e4f1758946892ddf"
         },
         "v1.0.25": {
           "url": "patches/patch_v1.0.25_v1.0.27.zip",
           "size": 551598,
-          "sha256": "0f047215d72d0a8b3b4cbbb88635c1fa2335f9d4bd91a42e85ae7c4580dea205"
+          "sha256": "7c4bc3f74b5c87c2d586a09e1106ba20a3d2ad77f0d9ee4db4cc3ef02c5b8ad4"
         },
         "v1.0.26": {
           "url": "patches/patch_v1.0.26_v1.0.27.zip",
           "size": 551598,
-          "sha256": "0f047215d72d0a8b3b4cbbb88635c1fa2335f9d4bd91a42e85ae7c4580dea205"
+          "sha256": "7c4bc3f74b5c87c2d586a09e1106ba20a3d2ad77f0d9ee4db4cc3ef02c5b8ad4"
         },
         "v1.0.6": {
           "url": "patches/patch_v1.0.6_v1.0.27.zip",
           "size": 708479,
-          "sha256": "068392dabdea2f3b69932b60fa8bb22d390626748a75e0b054d94dca7dea05a0"
+          "sha256": "b092cb4463279786809c31d6ccd64a1f1f09b7a6a4c485bc1f7bea5e013ed5f7"
         },
         "v1.0.7": {
           "url": "patches/patch_v1.0.7_v1.0.27.zip",
           "size": 708479,
-          "sha256": "068392dabdea2f3b69932b60fa8bb22d390626748a75e0b054d94dca7dea05a0"
+          "sha256": "b092cb4463279786809c31d6ccd64a1f1f09b7a6a4c485bc1f7bea5e013ed5f7"
         },
         "v1.0.8": {
           "url": "patches/patch_v1.0.8_v1.0.27.zip",
           "size": 704163,
-          "sha256": "7e9824dffad128ddc01530dd85538ca501208628da68169821303bceadc80c3e"
+          "sha256": "1d2906cf38ddf8e48ce17a9f59a96ed7e1dc1852381ae37cfdee2f910b64b176"
         },
         "v1.0.9": {
           "url": "patches/patch_v1.0.9_v1.0.27.zip",
           "size": 704163,
-          "sha256": "7e9824dffad128ddc01530dd85538ca501208628da68169821303bceadc80c3e"
+          "sha256": "1d2906cf38ddf8e48ce17a9f59a96ed7e1dc1852381ae37cfdee2f910b64b176"
         }
       }
     }
