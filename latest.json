@@ -11,147 +11,147 @@
     "v1.0.10": {
       "url": "patches/patch_v1.0.10_v1.0.27.zip",
       "size": 704163,
-      "sha256": "23f8a32053d3cdc6bb1312321ac12f7174150c82f290551bbf5868642b78a118",
+      "sha256": "93c21a0bd183bc8b2e7acff3bc1b92df25e1c0ec361d764ddbfe1ca6e26de6a8",
       "changed": 9,
       "deleted": 0
     },
     "v1.0.11": {
       "url": "patches/patch_v1.0.11_v1.0.27.zip",
       "size": 704163,
-      "sha256": "23f8a32053d3cdc6bb1312321ac12f7174150c82f290551bbf5868642b78a118",
+      "sha256": "93c21a0bd183bc8b2e7acff3bc1b92df25e1c0ec361d764ddbfe1ca6e26de6a8",
       "changed": 9,
       "deleted": 0
     },
     "v1.0.12": {
       "url": "patches/patch_v1.0.12_v1.0.27.zip",
       "size": 704163,
-      "sha256": "23f8a32053d3cdc6bb1312321ac12f7174150c82f290551bbf5868642b78a118",
+      "sha256": "93c21a0bd183bc8b2e7acff3bc1b92df25e1c0ec361d764ddbfe1ca6e26de6a8",
       "changed": 9,
       "deleted": 0
     },
     "v1.0.13": {
       "url": "patches/patch_v1.0.13_v1.0.27.zip",
       "size": 704191,
-      "sha256": "0146d25260e14f2ab8c4ad1bbe9b50d8fe9bc0696d2f85cfe3d9f5c5020ac010",
+      "sha256": "27486c5054a5567dafe5214e6ea69fa608be4768e458ae9c9085824ab1379049",
       "changed": 9,
       "deleted": 1
     },
     "v1.0.14": {
       "url": "patches/patch_v1.0.14_v1.0.27.zip",
       "size": 694600,
-      "sha256": "13b56b4695ae92c61d35c18f5d414fc1c714916729e2aa39f6643d51f4e9d223",
+      "sha256": "bac65cf7fe9a291ad933353291088e3262eba9236767d4d1010b99441f6970cd",
       "changed": 8,
       "deleted": 1
     },
     "v1.0.15": {
       "url": "patches/patch_v1.0.15_v1.0.27.zip",
       "size": 689236,
-      "sha256": "0fd3432dc3e20567f5c90efa0a786e38425ca60ceaf51ce3736d7ca92b50d20b",
+      "sha256": "be75ce489e9c6cc71ec2bb4a2202c805a56b213a8e128da1bc4dfe792e41d8c5",
       "changed": 7,
       "deleted": 1
     },
     "v1.0.16": {
       "url": "patches/patch_v1.0.16_v1.0.27.zip",
       "size": 577707,
-      "sha256": "47689e9261fc032251eda1776abba7cd723b2bab8d4d284d353eab0dad5a2dcd",
+      "sha256": "e3355c7308fbdae43f0849dca93020d2b6d957d432f5ce85c01be71762952de1",
       "changed": 6,
       "deleted": 1
     },
     "v1.0.17": {
       "url": "patches/patch_v1.0.17_v1.0.27.zip",
       "size": 577707,
-      "sha256": "47689e9261fc032251eda1776abba7cd723b2bab8d4d284d353eab0dad5a2dcd",
+      "sha256": "e3355c7308fbdae43f0849dca93020d2b6d957d432f5ce85c01be71762952de1",
       "changed": 6,
       "deleted": 1
     },
     "v1.0.18": {
       "url": "patches/patch_v1.0.18_v1.0.27.zip",
       "size": 577707,
-      "sha256": "47689e9261fc032251eda1776abba7cd723b2bab8d4d284d353eab0dad5a2dcd",
+      "sha256": "e3355c7308fbdae43f0849dca93020d2b6d957d432f5ce85c01be71762952de1",
       "changed": 6,
       "deleted": 1
     },
     "v1.0.19": {
       "url": "patches/patch_v1.0.19_v1.0.27.zip",
       "size": 577679,
-      "sha256": "71fa8eef3799b76f7e36d310b3fa89b95aa6ce2d1eb95848b08de38a7a58c668",
+      "sha256": "e23341533923fe9a36c4c3c430ecc41236cd106e67c51c500230979227db9cc9",
       "changed": 6,
       "deleted": 0
     },
     "v1.0.20": {
       "url": "patches/patch_v1.0.20_v1.0.27.zip",
       "size": 564806,
-      "sha256": "741b17e8cbaa0739eecc1cbb7cb118d54b0e3a1418d12fe1825f9c9b53d26e7a",
+      "sha256": "6534ffe227b921ab0e6cb6dbde3b2cb45cf2c40c4bb004ef9cd7960fd14ebb97",
       "changed": 5,
       "deleted": 0
     },
     "v1.0.21": {
       "url": "patches/patch_v1.0.21_v1.0.27.zip",
       "size": 563760,
-      "sha256": "beaf4e94fba15d54ecf31c6407d09e6a4bdf112b50a42078476fbee662903529",
+      "sha256": "17a6e1f558dc193baadaeee9ee11adef32c9e90fa82d96438d441cafc56be079",
       "changed": 3,
       "deleted": 0
     },
     "v1.0.22": {
       "url": "patches/patch_v1.0.22_v1.0.27.zip",
       "size": 563760,
-      "sha256": "beaf4e94fba15d54ecf31c6407d09e6a4bdf112b50a42078476fbee662903529",
+      "sha256": "17a6e1f558dc193baadaeee9ee11adef32c9e90fa82d96438d441cafc56be079",
       "changed": 3,
       "deleted": 0
     },
     "v1.0.23": {
       "url": "patches/patch_v1.0.23_v1.0.27.zip",
       "size": 568367,
-      "sha256": "b26589db4a40047aee41184711cb5b1e2506a63195095ad5635f105a37457d2b",
+      "sha256": "8a59e24e91148dc8694285e01d26a4dc9705ec0b1e65b9b7c762aae2b71f206a",
       "changed": 4,
       "deleted": 1
     },
     "v1.0.24": {
       "url": "patches/patch_v1.0.24_v1.0.27.zip",
       "size": 568339,
-      "sha256": "9964230babf6def14a37b7143a27a5ede092bd8493b1ed83e4f1758946892ddf",
+      "sha256": "0bf3e67aa45575dd5ca23e5bfe582289e68aa3edd2041d048af0bdb81a76b1ac",
       "changed": 4,
       "deleted": 0
     },
     "v1.0.25": {
       "url": "patches/patch_v1.0.25_v1.0.27.zip",
       "size": 551598,
-      "sha256": "7c4bc3f74b5c87c2d586a09e1106ba20a3d2ad77f0d9ee4db4cc3ef02c5b8ad4",
+      "sha256": "fe18d7447e86a719b851a227e59ca5e4ec12a69cd50325f7822990c72f952efe",
       "changed": 2,
       "deleted": 0
     },
     "v1.0.26": {
       "url": "patches/patch_v1.0.26_v1.0.27.zip",
       "size": 551598,
-      "sha256": "7c4bc3f74b5c87c2d586a09e1106ba20a3d2ad77f0d9ee4db4cc3ef02c5b8ad4",
+      "sha256": "fe18d7447e86a719b851a227e59ca5e4ec12a69cd50325f7822990c72f952efe",
       "changed": 2,
       "deleted": 0
     },
     "v1.0.6": {
       "url": "patches/patch_v1.0.6_v1.0.27.zip",
       "size": 708479,
-      "sha256": "b092cb4463279786809c31d6ccd64a1f1f09b7a6a4c485bc1f7bea5e013ed5f7",
+      "sha256": "f14a4eab9014fdd9ef6738e72e3d676024fac7750f49396a38a3ab3ce3942a1f",
       "changed": 10,
       "deleted": 0
     },
     "v1.0.7": {
       "url": "patches/patch_v1.0.7_v1.0.27.zip",
       "size": 708479,
-      "sha256": "b092cb4463279786809c31d6ccd64a1f1f09b7a6a4c485bc1f7bea5e013ed5f7",
+      "sha256": "f14a4eab9014fdd9ef6738e72e3d676024fac7750f49396a38a3ab3ce3942a1f",
       "changed": 10,
       "deleted": 0
     },
     "v1.0.8": {
       "url": "patches/patch_v1.0.8_v1.0.27.zip",
       "size": 704163,
-      "sha256": "1d2906cf38ddf8e48ce17a9f59a96ed7e1dc1852381ae37cfdee2f910b64b176",
+      "sha256": "6b86a6a6cf03f5ca55d5c7aaf1ea9725323b05129557bb912eb68bdd23d50495",
       "changed": 9,
       "deleted": 0
     },
     "v1.0.9": {
       "url": "patches/patch_v1.0.9_v1.0.27.zip",
       "size": 704163,
-      "sha256": "1d2906cf38ddf8e48ce17a9f59a96ed7e1dc1852381ae37cfdee2f910b64b176",
+      "sha256": "6b86a6a6cf03f5ca55d5c7aaf1ea9725323b05129557bb912eb68bdd23d50495",
       "changed": 9,
       "deleted": 0
     }
