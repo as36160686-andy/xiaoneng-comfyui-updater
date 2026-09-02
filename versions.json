@@ -1,5 +1,5 @@
 {
-  "latest": "v1.0.11",
+  "latest": "v1.0.12",
   "versions": [
     {
       "version": "v1.0.8",
@@ -100,6 +100,44 @@
           "url": "patches/patch_v1.0.9_v1.0.11.zip",
           "size": 544960,
           "sha256": "f1e3673499dc1e86d21d3d1695497cc7a33c62daaf3abb13c792a9d80f92d78f"
+        }
+      }
+    },
+    {
+      "version": "v1.0.12",
+      "date": "2026-09-02",
+      "notes": "修复：1) 点击「启动器自身更新」闪退（后台检查线程为局部变量被GC销毁导致，改为长期持有引用+结束后deleteLater，并直连对话框方法避免回调已销毁对象）；2) 退出启动器前先用端口探测，无ComfyUI运行时跳过全系统进程扫描，关闭提示立即弹出；3) 更新信息不再展示GitHub仓库地址（_host统一返回『官方更新源』）；4) 手动更新改用LauncherFetchWorker，可选择历史版本回退",
+      "snapshot_url": "snapshots/v1.0.12.zip",
+      "patches": {
+        "v1.0.10": {
+          "url": "patches/patch_v1.0.10_v1.0.12.zip",
+          "size": 555870,
+          "sha256": "942ee8d85cadf7ba5d09e133831653a738b8bdf7ff53c2209f3020bea124ddcc"
+        },
+        "v1.0.11": {
+          "url": "patches/patch_v1.0.11_v1.0.12.zip",
+          "size": 555870,
+          "sha256": "942ee8d85cadf7ba5d09e133831653a738b8bdf7ff53c2209f3020bea124ddcc"
+        },
+        "v1.0.6": {
+          "url": "patches/patch_v1.0.6_v1.0.12.zip",
+          "size": 577433,
+          "sha256": "1e33beb57a51766a098ce68cee1d5380bf4dd86692968ef9fe4c1951223b8feb"
+        },
+        "v1.0.7": {
+          "url": "patches/patch_v1.0.7_v1.0.12.zip",
+          "size": 577433,
+          "sha256": "1e33beb57a51766a098ce68cee1d5380bf4dd86692968ef9fe4c1951223b8feb"
+        },
+        "v1.0.8": {
+          "url": "patches/patch_v1.0.8_v1.0.12.zip",
+          "size": 555870,
+          "sha256": "942ee8d85cadf7ba5d09e133831653a738b8bdf7ff53c2209f3020bea124ddcc"
+        },
+        "v1.0.9": {
+          "url": "patches/patch_v1.0.9_v1.0.12.zip",
+          "size": 555870,
+          "sha256": "942ee8d85cadf7ba5d09e133831653a738b8bdf7ff53c2209f3020bea124ddcc"
         }
       }
     }
