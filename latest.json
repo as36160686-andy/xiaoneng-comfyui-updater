@@ -1,0 +1,9 @@
+{
+  "version": "v1.0.6",
+  "notes": "自动发布更新文件",
+  "base_url": "https://as36160686-andy.github.io/xiaoneng-comfyui-updater/",
+  "mirrors": [],
+  "full_zip_url": "",
+  "full_zip_urls": [],
+  "patches": {}
+}
