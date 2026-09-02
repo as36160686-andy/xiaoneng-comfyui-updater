@@ -1,6 +1,6 @@
 {
-  "version": "v1.0.10",
-  "notes": "插件管理器新增「打开文件夹」功能：顶部按钮一键打开插件目录(custom_nodes)，选中插件后「打开此插件」按钮打开该插件所在文件夹（均调用系统资源管理器）",
+  "version": "v1.0.11",
+  "notes": "UI调整：将「启动器自身更新」从「关于」对话框移入「更新」页面（更新页面新增「启动器自身更新」按钮，可检查/历史版本回退）；同步更新静默检查提示文案",
   "base_url": "https://as36160686-andy.github.io/xiaoneng-comfyui-updater/",
   "mirrors": [
     "https://raw.githubusercontent.com/as36160686-andy/xiaoneng-comfyui-updater/main"
@@ -8,31 +8,38 @@
   "full_zip_url": "",
   "full_zip_urls": [],
   "patches": {
+    "v1.0.10": {
+      "url": "patches/patch_v1.0.10_v1.0.11.zip",
+      "size": 544960,
+      "sha256": "1a6f8c2a5411119dcd8688b9baad7f764f0ee9ea399251ead152c6ed3af09488",
+      "changed": 2,
+      "deleted": 0
+    },
     "v1.0.6": {
-      "url": "patches/patch_v1.0.6_v1.0.10.zip",
-      "size": 576675,
-      "sha256": "d78e4a2e8a52bb104288606d4662155b875647939b5204ce31cb0a8d3b15ca11",
+      "url": "patches/patch_v1.0.6_v1.0.11.zip",
+      "size": 576558,
+      "sha256": "c7f2da037cc3a6bf32ee7976fa40e91746d425b4abaee3858a2cd61466ee2189",
       "changed": 5,
       "deleted": 1075
     },
     "v1.0.7": {
-      "url": "patches/patch_v1.0.7_v1.0.10.zip",
-      "size": 576675,
-      "sha256": "d78e4a2e8a52bb104288606d4662155b875647939b5204ce31cb0a8d3b15ca11",
+      "url": "patches/patch_v1.0.7_v1.0.11.zip",
+      "size": 576558,
+      "sha256": "c7f2da037cc3a6bf32ee7976fa40e91746d425b4abaee3858a2cd61466ee2189",
       "changed": 5,
       "deleted": 1075
     },
     "v1.0.8": {
-      "url": "patches/patch_v1.0.8_v1.0.10.zip",
-      "size": 555112,
-      "sha256": "96b31c1e16e7ae69191d409dd0efbea07ae13a9d2b29f6c25d6cd237c2e1cbaa",
+      "url": "patches/patch_v1.0.8_v1.0.11.zip",
+      "size": 554995,
+      "sha256": "970f3f55af71874290036bf4036897ede14c7efdece5f35c1b8c0a2961239a92",
       "changed": 3,
       "deleted": 0
     },
     "v1.0.9": {
-      "url": "patches/patch_v1.0.9_v1.0.10.zip",
-      "size": 545077,
-      "sha256": "43695ff130a41b875c5ee79b144a6535f598b00489e3f02be4292c226587ea9a",
+      "url": "patches/patch_v1.0.9_v1.0.11.zip",
+      "size": 544960,
+      "sha256": "f1e3673499dc1e86d21d3d1695497cc7a33c62daaf3abb13c792a9d80f92d78f",
       "changed": 2,
       "deleted": 0
     }

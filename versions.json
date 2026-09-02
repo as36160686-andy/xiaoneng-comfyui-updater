@@ -1,5 +1,5 @@
 {
-  "latest": "v1.0.10",
+  "latest": "v1.0.11",
   "versions": [
     {
       "version": "v1.0.8",
@@ -67,6 +67,39 @@
           "url": "patches/patch_v1.0.9_v1.0.10.zip",
           "size": 545077,
           "sha256": "43695ff130a41b875c5ee79b144a6535f598b00489e3f02be4292c226587ea9a"
+        }
+      }
+    },
+    {
+      "version": "v1.0.11",
+      "date": "2026-09-02",
+      "notes": "UI调整：将「启动器自身更新」从「关于」对话框移入「更新」页面（更新页面新增「启动器自身更新」按钮，可检查/历史版本回退）；同步更新静默检查提示文案",
+      "snapshot_url": "snapshots/v1.0.11.zip",
+      "patches": {
+        "v1.0.10": {
+          "url": "patches/patch_v1.0.10_v1.0.11.zip",
+          "size": 544960,
+          "sha256": "1a6f8c2a5411119dcd8688b9baad7f764f0ee9ea399251ead152c6ed3af09488"
+        },
+        "v1.0.6": {
+          "url": "patches/patch_v1.0.6_v1.0.11.zip",
+          "size": 576558,
+          "sha256": "c7f2da037cc3a6bf32ee7976fa40e91746d425b4abaee3858a2cd61466ee2189"
+        },
+        "v1.0.7": {
+          "url": "patches/patch_v1.0.7_v1.0.11.zip",
+          "size": 576558,
+          "sha256": "c7f2da037cc3a6bf32ee7976fa40e91746d425b4abaee3858a2cd61466ee2189"
+        },
+        "v1.0.8": {
+          "url": "patches/patch_v1.0.8_v1.0.11.zip",
+          "size": 554995,
+          "sha256": "970f3f55af71874290036bf4036897ede14c7efdece5f35c1b8c0a2961239a92"
+        },
+        "v1.0.9": {
+          "url": "patches/patch_v1.0.9_v1.0.11.zip",
+          "size": 544960,
+          "sha256": "f1e3673499dc1e86d21d3d1695497cc7a33c62daaf3abb13c792a9d80f92d78f"
         }
       }
     }
