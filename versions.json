@@ -1,5 +1,5 @@
 {
-  "latest": "v1.0.9",
+  "latest": "v1.0.10",
   "versions": [
     {
       "version": "v1.0.8",
@@ -39,6 +39,34 @@
           "url": "patches/patch_v1.0.8_v1.0.9.zip",
           "size": 514967,
           "sha256": "9e3651bc81c9a05e26f8c53d6f33cf92199e90087c96273078a355b013fd3790"
+        }
+      }
+    },
+    {
+      "version": "v1.0.10",
+      "date": "2026-09-02",
+      "notes": "插件管理器新增「打开文件夹」功能：顶部按钮一键打开插件目录(custom_nodes)，选中插件后「打开此插件」按钮打开该插件所在文件夹（均调用系统资源管理器）",
+      "snapshot_url": "snapshots/v1.0.10.zip",
+      "patches": {
+        "v1.0.6": {
+          "url": "patches/patch_v1.0.6_v1.0.10.zip",
+          "size": 576675,
+          "sha256": "d78e4a2e8a52bb104288606d4662155b875647939b5204ce31cb0a8d3b15ca11"
+        },
+        "v1.0.7": {
+          "url": "patches/patch_v1.0.7_v1.0.10.zip",
+          "size": 576675,
+          "sha256": "d78e4a2e8a52bb104288606d4662155b875647939b5204ce31cb0a8d3b15ca11"
+        },
+        "v1.0.8": {
+          "url": "patches/patch_v1.0.8_v1.0.10.zip",
+          "size": 555112,
+          "sha256": "96b31c1e16e7ae69191d409dd0efbea07ae13a9d2b29f6c25d6cd237c2e1cbaa"
+        },
+        "v1.0.9": {
+          "url": "patches/patch_v1.0.9_v1.0.10.zip",
+          "size": 545077,
+          "sha256": "43695ff130a41b875c5ee79b144a6535f598b00489e3f02be4292c226587ea9a"
         }
       }
     }
