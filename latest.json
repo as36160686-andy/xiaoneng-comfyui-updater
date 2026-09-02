@@ -1,9 +1,17 @@
 {
-  "version": "v1.0.6",
+  "version": "v1.0.7",
   "notes": "自动发布更新文件",
   "base_url": "https://as36160686-andy.github.io/xiaoneng-comfyui-updater/",
   "mirrors": [],
   "full_zip_url": "",
   "full_zip_urls": [],
-  "patches": {}
+  "patches": {
+    "v1.0.6": {
+      "url": "patches/patch_v1.0.6_v1.0.7.zip",
+      "size": 562990,
+      "sha256": "a772305c2561a0d92e7520865ea22fc241107c83f379fe9e8115661bf1b93e59",
+      "changed": 1,
+      "deleted": 0
+    }
+  }
 }
