@@ -1,5 +1,5 @@
 {
-  "latest": "v1.0.14",
+  "latest": "v1.0.15",
   "versions": [
     {
       "version": "v1.0.8",
@@ -229,6 +229,59 @@
           "url": "patches/patch_v1.0.9_v1.0.14.zip",
           "size": 2629911,
           "sha256": "bc88d13a2529cadf9f175ccb5d7594690a2cc953b6b1539635118ec5352d6d03"
+        }
+      }
+    },
+    {
+      "version": "v1.0.15",
+      "date": "2026-09-02",
+      "notes": "v1.0.15：加固增量更新——补丁生成与更新器均永不删除用户自管目录（custom_nodes/input/models/output/user 等），彻底避免误删用户已安装插件；同时内含 v1.0.14 三项功能（任务栏图标、INPUT/OUTPUT 目录设置、首页更新横幅）。",
+      "snapshot_url": "snapshots/v1.0.15.zip",
+      "patches": {
+        "v1.0.10": {
+          "url": "patches/patch_v1.0.10_v1.0.15.zip",
+          "size": 2635614,
+          "sha256": "b65698b2d7e6a44dca01a45ce1311492f486156b220d38b82986460da9b714e2"
+        },
+        "v1.0.11": {
+          "url": "patches/patch_v1.0.11_v1.0.15.zip",
+          "size": 2635614,
+          "sha256": "b65698b2d7e6a44dca01a45ce1311492f486156b220d38b82986460da9b714e2"
+        },
+        "v1.0.12": {
+          "url": "patches/patch_v1.0.12_v1.0.15.zip",
+          "size": 2635614,
+          "sha256": "b65698b2d7e6a44dca01a45ce1311492f486156b220d38b82986460da9b714e2"
+        },
+        "v1.0.13": {
+          "url": "patches/patch_v1.0.13_v1.0.15.zip",
+          "size": 1042143,
+          "sha256": "5b50ba44a77cc88b3a19f21ab186ac00f8a46d55ee15eb60531a29faab453115"
+        },
+        "v1.0.14": {
+          "url": "patches/patch_v1.0.14_v1.0.15.zip",
+          "size": 521168,
+          "sha256": "734f193565ecd9024a2b788eab2d073d1e1a2fb1b06176027f2b43f3f1bd9578"
+        },
+        "v1.0.6": {
+          "url": "patches/patch_v1.0.6_v1.0.15.zip",
+          "size": 2639930,
+          "sha256": "fd8a5c82c2aec069c50d7a516508ed3929e3c6b8d9c431cc9fffdd1363a3c8d4"
+        },
+        "v1.0.7": {
+          "url": "patches/patch_v1.0.7_v1.0.15.zip",
+          "size": 2639930,
+          "sha256": "fd8a5c82c2aec069c50d7a516508ed3929e3c6b8d9c431cc9fffdd1363a3c8d4"
+        },
+        "v1.0.8": {
+          "url": "patches/patch_v1.0.8_v1.0.15.zip",
+          "size": 2635614,
+          "sha256": "5f3235c3d396f3d354d04a4b887fb1400c24bf440dfd5ec95558f1160b43eea3"
+        },
+        "v1.0.9": {
+          "url": "patches/patch_v1.0.9_v1.0.15.zip",
+          "size": 2635614,
+          "sha256": "5f3235c3d396f3d354d04a4b887fb1400c24bf440dfd5ec95558f1160b43eea3"
         }
       }
     }
