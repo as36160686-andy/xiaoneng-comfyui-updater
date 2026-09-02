@@ -1,5 +1,5 @@
 {
-  "latest": "v1.0.19",
+  "latest": "v1.0.20",
   "versions": [
     {
       "version": "v1.0.8",
@@ -544,6 +544,84 @@
           "url": "patches/patch_v1.0.9_v1.0.19.zip",
           "size": 2745960,
           "sha256": "70f66658691081fdef2feed031b20df417779b38cf208ca1e7957d694dc5e464"
+        }
+      }
+    },
+    {
+      "version": "v1.0.20",
+      "date": "2026-09-02",
+      "notes": "优化关闭速度：关闭时不再在主线程同步执行全系统进程扫描，改为端口占用时弹窗询问、停止/清理放入后台线程；端口空闲直接秒关。同时将启动器目录迁移至 D:/ComfyUI小助手。",
+      "snapshot_url": "snapshots/v1.0.20.zip",
+      "patches": {
+        "v1.0.10": {
+          "url": "patches/patch_v1.0.10_v1.0.20.zip",
+          "size": 2746483,
+          "sha256": "b6202114bda681082bb2d9f0d92f96d6f66192a9bad7b3340b1579731b0d19c4"
+        },
+        "v1.0.11": {
+          "url": "patches/patch_v1.0.11_v1.0.20.zip",
+          "size": 2746483,
+          "sha256": "d734f21d0be225199a863039ada55584af341ee214a7709305c2cd653115fc8a"
+        },
+        "v1.0.12": {
+          "url": "patches/patch_v1.0.12_v1.0.20.zip",
+          "size": 2746483,
+          "sha256": "d734f21d0be225199a863039ada55584af341ee214a7709305c2cd653115fc8a"
+        },
+        "v1.0.13": {
+          "url": "patches/patch_v1.0.13_v1.0.20.zip",
+          "size": 1154793,
+          "sha256": "efa175d38b2a70ddab31cabfbea079903be6fa5fee8c9908d32ae6282df70564"
+        },
+        "v1.0.14": {
+          "url": "patches/patch_v1.0.14_v1.0.20.zip",
+          "size": 690532,
+          "sha256": "2570de16c82ad8b675ec0892d1d838680f83e45376f65d76b57b3a78136bda90"
+        },
+        "v1.0.15": {
+          "url": "patches/patch_v1.0.15_v1.0.20.zip",
+          "size": 674729,
+          "sha256": "7d583b6bfb5292401fe5477ed2068d0b94f6346b016643cde6079df17212dddb"
+        },
+        "v1.0.16": {
+          "url": "patches/patch_v1.0.16_v1.0.20.zip",
+          "size": 563200,
+          "sha256": "ed949c3bab33997a764e58b3a098f11520cb1791d8f2740ec69189b6e6d958a5"
+        },
+        "v1.0.17": {
+          "url": "patches/patch_v1.0.17_v1.0.20.zip",
+          "size": 563200,
+          "sha256": "ed949c3bab33997a764e58b3a098f11520cb1791d8f2740ec69189b6e6d958a5"
+        },
+        "v1.0.18": {
+          "url": "patches/patch_v1.0.18_v1.0.20.zip",
+          "size": 563200,
+          "sha256": "ed949c3bab33997a764e58b3a098f11520cb1791d8f2740ec69189b6e6d958a5"
+        },
+        "v1.0.19": {
+          "url": "patches/patch_v1.0.19_v1.0.20.zip",
+          "size": 563172,
+          "sha256": "b5d8bed5fa45ec1ce96ff87eba71151db62e86d2c56074693839b90365f28d29"
+        },
+        "v1.0.6": {
+          "url": "patches/patch_v1.0.6_v1.0.20.zip",
+          "size": 2750799,
+          "sha256": "9108160a6bfa94a97228b6e4534297b8742c4b4027701339076cec9ef3310e60"
+        },
+        "v1.0.7": {
+          "url": "patches/patch_v1.0.7_v1.0.20.zip",
+          "size": 2750799,
+          "sha256": "9108160a6bfa94a97228b6e4534297b8742c4b4027701339076cec9ef3310e60"
+        },
+        "v1.0.8": {
+          "url": "patches/patch_v1.0.8_v1.0.20.zip",
+          "size": 2746483,
+          "sha256": "d734f21d0be225199a863039ada55584af341ee214a7709305c2cd653115fc8a"
+        },
+        "v1.0.9": {
+          "url": "patches/patch_v1.0.9_v1.0.20.zip",
+          "size": 2746483,
+          "sha256": "d734f21d0be225199a863039ada55584af341ee214a7709305c2cd653115fc8a"
         }
       }
     }
