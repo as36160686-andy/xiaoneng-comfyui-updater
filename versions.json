@@ -1,5 +1,5 @@
 {
-  "latest": "v1.0.8",
+  "latest": "v1.0.9",
   "versions": [
     {
       "version": "v1.0.8",
@@ -16,6 +16,29 @@
           "url": "patches/patch_v1.0.7_v1.0.8.zip",
           "size": 576170,
           "sha256": "c40aa7da054064fa497126ba7ae4496bd347d74133bb1575ea82d965e77cf637"
+        }
+      }
+    },
+    {
+      "version": "v1.0.9",
+      "date": "2026-09-02",
+      "notes": "修复：历史/最新版更新时正确走增量补丁（build_target_info 取 patches 映射）；按Git镜像自动选境内/境外源、历史版本可回退、已是最新不滚动进度条",
+      "snapshot_url": "snapshots/v1.0.9.zip",
+      "patches": {
+        "v1.0.6": {
+          "url": "patches/patch_v1.0.6_v1.0.9.zip",
+          "size": 576206,
+          "sha256": "88500365da1ffd26dbfeee15293de3ae98f0d5a4e08b3bc5642aec4cf9b6db01"
+        },
+        "v1.0.7": {
+          "url": "patches/patch_v1.0.7_v1.0.9.zip",
+          "size": 576206,
+          "sha256": "88500365da1ffd26dbfeee15293de3ae98f0d5a4e08b3bc5642aec4cf9b6db01"
+        },
+        "v1.0.8": {
+          "url": "patches/patch_v1.0.8_v1.0.9.zip",
+          "size": 514967,
+          "sha256": "9e3651bc81c9a05e26f8c53d6f33cf92199e90087c96273078a355b013fd3790"
         }
       }
     }

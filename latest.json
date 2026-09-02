@@ -1,6 +1,6 @@
 {
-  "version": "v1.0.8",
-  "notes": "自动更新增强：按Git镜像自动选境内/境外源、历史版本可回退、已是最新不滚动进度条",
+  "version": "v1.0.9",
+  "notes": "修复：历史/最新版更新时正确走增量补丁（build_target_info 取 patches 映射）；按Git镜像自动选境内/境外源、历史版本可回退、已是最新不滚动进度条",
   "base_url": "https://as36160686-andy.github.io/xiaoneng-comfyui-updater/",
   "mirrors": [
     "https://raw.githubusercontent.com/as36160686-andy/xiaoneng-comfyui-updater/main"
@@ -9,18 +9,25 @@
   "full_zip_urls": [],
   "patches": {
     "v1.0.6": {
-      "url": "patches/patch_v1.0.6_v1.0.8.zip",
-      "size": 576170,
-      "sha256": "c40aa7da054064fa497126ba7ae4496bd347d74133bb1575ea82d965e77cf637",
+      "url": "patches/patch_v1.0.6_v1.0.9.zip",
+      "size": 576206,
+      "sha256": "88500365da1ffd26dbfeee15293de3ae98f0d5a4e08b3bc5642aec4cf9b6db01",
       "changed": 5,
       "deleted": 1075
     },
     "v1.0.7": {
-      "url": "patches/patch_v1.0.7_v1.0.8.zip",
-      "size": 576170,
-      "sha256": "c40aa7da054064fa497126ba7ae4496bd347d74133bb1575ea82d965e77cf637",
+      "url": "patches/patch_v1.0.7_v1.0.9.zip",
+      "size": 576206,
+      "sha256": "88500365da1ffd26dbfeee15293de3ae98f0d5a4e08b3bc5642aec4cf9b6db01",
       "changed": 5,
       "deleted": 1075
+    },
+    "v1.0.8": {
+      "url": "patches/patch_v1.0.8_v1.0.9.zip",
+      "size": 514967,
+      "sha256": "9e3651bc81c9a05e26f8c53d6f33cf92199e90087c96273078a355b013fd3790",
+      "changed": 2,
+      "deleted": 0
     }
   }
 }
