@@ -1,5 +1,5 @@
 {
-  "latest": "v1.0.21",
+  "latest": "v1.0.25",
   "versions": [
     {
       "version": "v1.0.8",
@@ -705,6 +705,388 @@
           "url": "patches/patch_v1.0.9_v1.0.21.zip",
           "size": 2748566,
           "sha256": "8069cdedde11ba1279a196e7a140be3f3367c8e652c787682461637dea5faca6"
+        }
+      }
+    },
+    {
+      "version": "v1.0.22",
+      "date": "2026-09-03",
+      "notes": "修复 PyInstaller 6.22.1+ 重启安全校验失败；关闭启动后自动更新，改为手动触发",
+      "snapshot_url": "snapshots/v1.0.22.zip",
+      "patches": {
+        "v1.0.10": {
+          "url": "patches/patch_v1.0.10_v1.0.22.zip",
+          "size": 2748961,
+          "sha256": "cafb7d9954b8db85dbc58d8b65f2382dfdd2d000be008e4649bf9817c2d610bb"
+        },
+        "v1.0.11": {
+          "url": "patches/patch_v1.0.11_v1.0.22.zip",
+          "size": 2748961,
+          "sha256": "cafb7d9954b8db85dbc58d8b65f2382dfdd2d000be008e4649bf9817c2d610bb"
+        },
+        "v1.0.12": {
+          "url": "patches/patch_v1.0.12_v1.0.22.zip",
+          "size": 2748961,
+          "sha256": "cafb7d9954b8db85dbc58d8b65f2382dfdd2d000be008e4649bf9817c2d610bb"
+        },
+        "v1.0.13": {
+          "url": "patches/patch_v1.0.13_v1.0.22.zip",
+          "size": 1157271,
+          "sha256": "2f77c75eabd823521887287a17d8a2931d20cbef5f245838e0289a2d5d17880d"
+        },
+        "v1.0.14": {
+          "url": "patches/patch_v1.0.14_v1.0.22.zip",
+          "size": 693010,
+          "sha256": "1433c8c43b9d2c9b75e39bc388f37c3c7ed9069680153aa49c8b132c07c0f14e"
+        },
+        "v1.0.15": {
+          "url": "patches/patch_v1.0.15_v1.0.22.zip",
+          "size": 687646,
+          "sha256": "e9a7fe38ef19180c2afbe2a22a50ac09e082339a8ffc5855184e08dd9b0384d2"
+        },
+        "v1.0.16": {
+          "url": "patches/patch_v1.0.16_v1.0.22.zip",
+          "size": 576117,
+          "sha256": "38c16500eee59bd4809266eb8e3330e850825239c4a9470fa67f9b95485a7e6a"
+        },
+        "v1.0.17": {
+          "url": "patches/patch_v1.0.17_v1.0.22.zip",
+          "size": 576117,
+          "sha256": "38c16500eee59bd4809266eb8e3330e850825239c4a9470fa67f9b95485a7e6a"
+        },
+        "v1.0.18": {
+          "url": "patches/patch_v1.0.18_v1.0.22.zip",
+          "size": 576117,
+          "sha256": "38c16500eee59bd4809266eb8e3330e850825239c4a9470fa67f9b95485a7e6a"
+        },
+        "v1.0.19": {
+          "url": "patches/patch_v1.0.19_v1.0.22.zip",
+          "size": 576089,
+          "sha256": "e0e622ef33e366b084f3da090acead97c861445c1a8a06d8ec847a75ed596920"
+        },
+        "v1.0.20": {
+          "url": "patches/patch_v1.0.20_v1.0.22.zip",
+          "size": 563216,
+          "sha256": "34e2939faac92f96bb54e7954e68b185f253c1d9133511e1130b9dc5e097a976"
+        },
+        "v1.0.21": {
+          "url": "patches/patch_v1.0.21_v1.0.22.zip",
+          "size": 562170,
+          "sha256": "85633e0da363d632d1199c52555f4d5492a1bab9d20856a9d5142556e63fed19"
+        },
+        "v1.0.6": {
+          "url": "patches/patch_v1.0.6_v1.0.22.zip",
+          "size": 2753277,
+          "sha256": "3bf9dac681962c055143d9959c57a33df33bf3e6cf2de0b0f71c2f4c1c9732ba"
+        },
+        "v1.0.7": {
+          "url": "patches/patch_v1.0.7_v1.0.22.zip",
+          "size": 2753277,
+          "sha256": "3bf9dac681962c055143d9959c57a33df33bf3e6cf2de0b0f71c2f4c1c9732ba"
+        },
+        "v1.0.8": {
+          "url": "patches/patch_v1.0.8_v1.0.22.zip",
+          "size": 2748961,
+          "sha256": "706f45cb4f4b4dcd9d91068a832d4fa8cdf4ae263e50e96d4a4543a1c92e1e5e"
+        },
+        "v1.0.9": {
+          "url": "patches/patch_v1.0.9_v1.0.22.zip",
+          "size": 2748961,
+          "sha256": "706f45cb4f4b4dcd9d91068a832d4fa8cdf4ae263e50e96d4a4543a1c92e1e5e"
+        }
+      }
+    },
+    {
+      "version": "v1.0.23",
+      "date": "2026-09-03",
+      "notes": "修复 PyInstaller 6.22.1+ 重启安全校验失败；彻底关闭启动后自动更新；优化启动速度",
+      "snapshot_url": "snapshots/v1.0.23.zip",
+      "patches": {
+        "v1.0.10": {
+          "url": "patches/patch_v1.0.10_v1.0.23.zip",
+          "size": 2755346,
+          "sha256": "62f91c1984ab4c722f33153e41b799cb10904fb7a3fa47bf5007cacb8895a5b9"
+        },
+        "v1.0.11": {
+          "url": "patches/patch_v1.0.11_v1.0.23.zip",
+          "size": 2755346,
+          "sha256": "62f91c1984ab4c722f33153e41b799cb10904fb7a3fa47bf5007cacb8895a5b9"
+        },
+        "v1.0.12": {
+          "url": "patches/patch_v1.0.12_v1.0.23.zip",
+          "size": 2755346,
+          "sha256": "62f91c1984ab4c722f33153e41b799cb10904fb7a3fa47bf5007cacb8895a5b9"
+        },
+        "v1.0.13": {
+          "url": "patches/patch_v1.0.13_v1.0.23.zip",
+          "size": 1163656,
+          "sha256": "65702a5412a169ef584bbe3c92fd0e69ff6406a85ffcc4f54b5b76d0fb7d2005"
+        },
+        "v1.0.14": {
+          "url": "patches/patch_v1.0.14_v1.0.23.zip",
+          "size": 699395,
+          "sha256": "75b9669f1f43fced4804794681ab8bc689fc079e9698f646bc2d3757e617fc8e"
+        },
+        "v1.0.15": {
+          "url": "patches/patch_v1.0.15_v1.0.23.zip",
+          "size": 694031,
+          "sha256": "3adcb1f9e546555a125d0a8d5da413ffd2ccd01a4ba8e2f2ebacb923372f703e"
+        },
+        "v1.0.16": {
+          "url": "patches/patch_v1.0.16_v1.0.23.zip",
+          "size": 582502,
+          "sha256": "be09552f103e3b627b658a75d65e4ef0a5f2e2475ef797e28b0ba92718f2aa8d"
+        },
+        "v1.0.17": {
+          "url": "patches/patch_v1.0.17_v1.0.23.zip",
+          "size": 582502,
+          "sha256": "be09552f103e3b627b658a75d65e4ef0a5f2e2475ef797e28b0ba92718f2aa8d"
+        },
+        "v1.0.18": {
+          "url": "patches/patch_v1.0.18_v1.0.23.zip",
+          "size": 582502,
+          "sha256": "be09552f103e3b627b658a75d65e4ef0a5f2e2475ef797e28b0ba92718f2aa8d"
+        },
+        "v1.0.19": {
+          "url": "patches/patch_v1.0.19_v1.0.23.zip",
+          "size": 582474,
+          "sha256": "ae7f042b042b3799c797c76edf119b95914850666f0bbae410a2bbe7b6b11bb7"
+        },
+        "v1.0.20": {
+          "url": "patches/patch_v1.0.20_v1.0.23.zip",
+          "size": 569601,
+          "sha256": "070ae493f3badeed5f832614c436b0f2cb287e7ec60215609f249746a91905fd"
+        },
+        "v1.0.21": {
+          "url": "patches/patch_v1.0.21_v1.0.23.zip",
+          "size": 568555,
+          "sha256": "72fd9828c3e99a01244c59547ca46a73c5e786f746c8b86fdf3857e145512670"
+        },
+        "v1.0.22": {
+          "url": "patches/patch_v1.0.22_v1.0.23.zip",
+          "size": 568555,
+          "sha256": "72fd9828c3e99a01244c59547ca46a73c5e786f746c8b86fdf3857e145512670"
+        },
+        "v1.0.6": {
+          "url": "patches/patch_v1.0.6_v1.0.23.zip",
+          "size": 2759662,
+          "sha256": "d5ffa57aa3922963da3331a45c420165f7793c89f57b0d4ffc597c5db36335c0"
+        },
+        "v1.0.7": {
+          "url": "patches/patch_v1.0.7_v1.0.23.zip",
+          "size": 2759662,
+          "sha256": "d5ffa57aa3922963da3331a45c420165f7793c89f57b0d4ffc597c5db36335c0"
+        },
+        "v1.0.8": {
+          "url": "patches/patch_v1.0.8_v1.0.23.zip",
+          "size": 2755346,
+          "sha256": "dd89b221651d6a999a67322e790abbd880fb9c574d7526b8027915e597c8d2b5"
+        },
+        "v1.0.9": {
+          "url": "patches/patch_v1.0.9_v1.0.23.zip",
+          "size": 2755346,
+          "sha256": "dd89b221651d6a999a67322e790abbd880fb9c574d7526b8027915e597c8d2b5"
+        }
+      }
+    },
+    {
+      "version": "v1.0.24",
+      "date": "2026-09-03",
+      "notes": "修复更新后点击重启不重新拉起启动器",
+      "snapshot_url": "snapshots/v1.0.24.zip",
+      "patches": {
+        "v1.0.10": {
+          "url": "patches/patch_v1.0.10_v1.0.24.zip",
+          "size": 2754349,
+          "sha256": "705c84848acecef49868b99f7e73753e89bf3b8fb95d02a507f6ba5a9064620f"
+        },
+        "v1.0.11": {
+          "url": "patches/patch_v1.0.11_v1.0.24.zip",
+          "size": 2754349,
+          "sha256": "705c84848acecef49868b99f7e73753e89bf3b8fb95d02a507f6ba5a9064620f"
+        },
+        "v1.0.12": {
+          "url": "patches/patch_v1.0.12_v1.0.24.zip",
+          "size": 2754349,
+          "sha256": "705c84848acecef49868b99f7e73753e89bf3b8fb95d02a507f6ba5a9064620f"
+        },
+        "v1.0.13": {
+          "url": "patches/patch_v1.0.13_v1.0.24.zip",
+          "size": 1162659,
+          "sha256": "c1cebe6f99b10b4de1ed51d7c1b1248c1d1841ee1aa9536a4dcb01a24012057b"
+        },
+        "v1.0.14": {
+          "url": "patches/patch_v1.0.14_v1.0.24.zip",
+          "size": 698398,
+          "sha256": "9cb47d0a52125642268054f1efd4d86f35f2f3d538e43206e341f5f1d493e03b"
+        },
+        "v1.0.15": {
+          "url": "patches/patch_v1.0.15_v1.0.24.zip",
+          "size": 693034,
+          "sha256": "1c00b7c71eaad9a39af97c03f1524708b34d2e983d05f31041502e96b3b5a0ad"
+        },
+        "v1.0.16": {
+          "url": "patches/patch_v1.0.16_v1.0.24.zip",
+          "size": 581505,
+          "sha256": "5cc9590b21ece9bac4f7ae866835f7f0b5054158c9e5b116dbd48e154f72e919"
+        },
+        "v1.0.17": {
+          "url": "patches/patch_v1.0.17_v1.0.24.zip",
+          "size": 581505,
+          "sha256": "5cc9590b21ece9bac4f7ae866835f7f0b5054158c9e5b116dbd48e154f72e919"
+        },
+        "v1.0.18": {
+          "url": "patches/patch_v1.0.18_v1.0.24.zip",
+          "size": 581505,
+          "sha256": "5cc9590b21ece9bac4f7ae866835f7f0b5054158c9e5b116dbd48e154f72e919"
+        },
+        "v1.0.19": {
+          "url": "patches/patch_v1.0.19_v1.0.24.zip",
+          "size": 581477,
+          "sha256": "e869171409810dc4c46e209414d00ee317b844007d108a7297e5d5d871c5261f"
+        },
+        "v1.0.20": {
+          "url": "patches/patch_v1.0.20_v1.0.24.zip",
+          "size": 568604,
+          "sha256": "f56c60c81bda9d3d405c9327611117914ee8d6f5e597341d9e72eec01d1e0716"
+        },
+        "v1.0.21": {
+          "url": "patches/patch_v1.0.21_v1.0.24.zip",
+          "size": 567558,
+          "sha256": "5604766efa5eded2cd4f7caf1999e6eba8db99a0a808f52e71a4e1b6c013beaa"
+        },
+        "v1.0.22": {
+          "url": "patches/patch_v1.0.22_v1.0.24.zip",
+          "size": 567558,
+          "sha256": "5604766efa5eded2cd4f7caf1999e6eba8db99a0a808f52e71a4e1b6c013beaa"
+        },
+        "v1.0.23": {
+          "url": "patches/patch_v1.0.23_v1.0.24.zip",
+          "size": 567586,
+          "sha256": "7f739a7d572256857a2921d8f3e8a78d9aa5c4d0a26a23aa4f9c222a64d89911"
+        },
+        "v1.0.6": {
+          "url": "patches/patch_v1.0.6_v1.0.24.zip",
+          "size": 2758665,
+          "sha256": "1c732f885795c86d9924ac89ecc7a4806c9741999fbfd13bf6754358b37fd914"
+        },
+        "v1.0.7": {
+          "url": "patches/patch_v1.0.7_v1.0.24.zip",
+          "size": 2758665,
+          "sha256": "1c732f885795c86d9924ac89ecc7a4806c9741999fbfd13bf6754358b37fd914"
+        },
+        "v1.0.8": {
+          "url": "patches/patch_v1.0.8_v1.0.24.zip",
+          "size": 2754349,
+          "sha256": "4be3370e26325cd0c3b68623277f2b32050098a287d7f83dce4b810deae36510"
+        },
+        "v1.0.9": {
+          "url": "patches/patch_v1.0.9_v1.0.24.zip",
+          "size": 2754349,
+          "sha256": "4be3370e26325cd0c3b68623277f2b32050098a287d7f83dce4b810deae36510"
+        }
+      }
+    },
+    {
+      "version": "v1.0.25",
+      "date": "2026-09-03",
+      "notes": "修复更新后点击重启启动器不重新拉起；修复重启辅助脚本未能自删导致残留文件",
+      "snapshot_url": "snapshots/v1.0.25.zip",
+      "patches": {
+        "v1.0.10": {
+          "url": "patches/patch_v1.0.10_v1.0.25.zip",
+          "size": 704174,
+          "sha256": "410be1126ef35c7209e486715bffe7204d6c47006082e514fe4739e089521beb"
+        },
+        "v1.0.11": {
+          "url": "patches/patch_v1.0.11_v1.0.25.zip",
+          "size": 704174,
+          "sha256": "410be1126ef35c7209e486715bffe7204d6c47006082e514fe4739e089521beb"
+        },
+        "v1.0.12": {
+          "url": "patches/patch_v1.0.12_v1.0.25.zip",
+          "size": 704174,
+          "sha256": "410be1126ef35c7209e486715bffe7204d6c47006082e514fe4739e089521beb"
+        },
+        "v1.0.13": {
+          "url": "patches/patch_v1.0.13_v1.0.25.zip",
+          "size": 704202,
+          "sha256": "9a452c7e9a5c65088ce7cd313affe0ae98c6f3c0d784c3cbbc052d71b7d4cc2f"
+        },
+        "v1.0.14": {
+          "url": "patches/patch_v1.0.14_v1.0.25.zip",
+          "size": 694611,
+          "sha256": "64a8c4974c4e921a0909350e1fda55d6e0e10df2691f1acd962e19a25383aa5f"
+        },
+        "v1.0.15": {
+          "url": "patches/patch_v1.0.15_v1.0.25.zip",
+          "size": 689247,
+          "sha256": "17583a137094aec92affd82fe682de0b6b74b1e090dc7f0b4cf6154bc872a463"
+        },
+        "v1.0.16": {
+          "url": "patches/patch_v1.0.16_v1.0.25.zip",
+          "size": 577718,
+          "sha256": "bab44ba13fc7938932a0e29ec0e51334777ecf30f594db2ffd7f360b2c9e339e"
+        },
+        "v1.0.17": {
+          "url": "patches/patch_v1.0.17_v1.0.25.zip",
+          "size": 577718,
+          "sha256": "bab44ba13fc7938932a0e29ec0e51334777ecf30f594db2ffd7f360b2c9e339e"
+        },
+        "v1.0.18": {
+          "url": "patches/patch_v1.0.18_v1.0.25.zip",
+          "size": 577718,
+          "sha256": "bab44ba13fc7938932a0e29ec0e51334777ecf30f594db2ffd7f360b2c9e339e"
+        },
+        "v1.0.19": {
+          "url": "patches/patch_v1.0.19_v1.0.25.zip",
+          "size": 577690,
+          "sha256": "e0eb0b8922cccc3eb50c40480f8fb2ee637f5b95a6b828a395c606763e86bbdd"
+        },
+        "v1.0.20": {
+          "url": "patches/patch_v1.0.20_v1.0.25.zip",
+          "size": 564817,
+          "sha256": "a532b4a6be6cc1a94b6e6e675198fafb9722c8fbc79ff06ee3722197c0883725"
+        },
+        "v1.0.21": {
+          "url": "patches/patch_v1.0.21_v1.0.25.zip",
+          "size": 563771,
+          "sha256": "14d471b05f97c2a2d6cebbdf66830cd4c38310dfd06e2118e0aba8ba8846410f"
+        },
+        "v1.0.22": {
+          "url": "patches/patch_v1.0.22_v1.0.25.zip",
+          "size": 563771,
+          "sha256": "14d471b05f97c2a2d6cebbdf66830cd4c38310dfd06e2118e0aba8ba8846410f"
+        },
+        "v1.0.23": {
+          "url": "patches/patch_v1.0.23_v1.0.25.zip",
+          "size": 568378,
+          "sha256": "bfea4e065ec3e11ce9df8a8d0f4d8acbc0ff847405f4a4810defc58394548f1a"
+        },
+        "v1.0.24": {
+          "url": "patches/patch_v1.0.24_v1.0.25.zip",
+          "size": 568350,
+          "sha256": "f1a9ecb2b1114842a6ad778409a55f531c79846d52d6a5e530f7d9eebda43d5b"
+        },
+        "v1.0.6": {
+          "url": "patches/patch_v1.0.6_v1.0.25.zip",
+          "size": 708490,
+          "sha256": "3fe36b628f127dda6ccb8658501370801c2afc57a309326d1278e070dde816f7"
+        },
+        "v1.0.7": {
+          "url": "patches/patch_v1.0.7_v1.0.25.zip",
+          "size": 708490,
+          "sha256": "3fe36b628f127dda6ccb8658501370801c2afc57a309326d1278e070dde816f7"
+        },
+        "v1.0.8": {
+          "url": "patches/patch_v1.0.8_v1.0.25.zip",
+          "size": 704174,
+          "sha256": "410be1126ef35c7209e486715bffe7204d6c47006082e514fe4739e089521beb"
+        },
+        "v1.0.9": {
+          "url": "patches/patch_v1.0.9_v1.0.25.zip",
+          "size": 704174,
+          "sha256": "dcb719c74e01ba1181bb5e34ca0587077e1cdc65d205133f5d3fd8197736a827"
         }
       }
     }
