@@ -1,5 +1,5 @@
 {
-  "latest": "v1.0.31",
+  "latest": "v1.0.32",
   "versions": [
     {
       "version": "v1.0.8",
@@ -1810,6 +1810,144 @@
           "url": "patches/patch_v1.0.9_v1.0.31.zip",
           "size": 768873,
           "sha256": "b59cc9d674fb91a8f8924132825c3f886e145fe8e8f56f375d74acf7ffe6cbba"
+        }
+      }
+    },
+    {
+      "version": "v1.0.32",
+      "date": "2026-09-03",
+      "notes": "工作流拖拽/添加不再校验 JSON 失败就拒绝，全部复制成功后再提示；Qt 文件对话框侧边栏只保留桌面",
+      "snapshot_url": "snapshots/v1.0.32.zip",
+      "patches": {
+        "v1.0.10": {
+          "url": "patches/patch_v1.0.10_v1.0.32.zip",
+          "size": 769013,
+          "sha256": "67ff7862a2193a9ad285b49b89a8038aca8ca1b9183f5031309e1e2ee543572c"
+        },
+        "v1.0.11": {
+          "url": "patches/patch_v1.0.11_v1.0.32.zip",
+          "size": 769013,
+          "sha256": "67ff7862a2193a9ad285b49b89a8038aca8ca1b9183f5031309e1e2ee543572c"
+        },
+        "v1.0.12": {
+          "url": "patches/patch_v1.0.12_v1.0.32.zip",
+          "size": 769013,
+          "sha256": "67ff7862a2193a9ad285b49b89a8038aca8ca1b9183f5031309e1e2ee543572c"
+        },
+        "v1.0.13": {
+          "url": "patches/patch_v1.0.13_v1.0.32.zip",
+          "size": 769041,
+          "sha256": "b4cc4f5f6f6db1130da04b324d0be29c65539b2f0f24ebef84ad140a178e9d9f"
+        },
+        "v1.0.14": {
+          "url": "patches/patch_v1.0.14_v1.0.32.zip",
+          "size": 759450,
+          "sha256": "63dd8a2e47f5ad34fd6fc1cab8d10cd57ad9c1eed9536f5218b6a595511221cd"
+        },
+        "v1.0.15": {
+          "url": "patches/patch_v1.0.15_v1.0.32.zip",
+          "size": 754086,
+          "sha256": "ec6e558c2a049f7d769a48be5fc41714d019372bf88866a6c2bad6aa06ffc413"
+        },
+        "v1.0.16": {
+          "url": "patches/patch_v1.0.16_v1.0.32.zip",
+          "size": 642557,
+          "sha256": "daeea7798a6ad7ea7bc579c6bfcf43894e9f2e66a9935fefc7782a1e22f0f825"
+        },
+        "v1.0.17": {
+          "url": "patches/patch_v1.0.17_v1.0.32.zip",
+          "size": 642557,
+          "sha256": "daeea7798a6ad7ea7bc579c6bfcf43894e9f2e66a9935fefc7782a1e22f0f825"
+        },
+        "v1.0.18": {
+          "url": "patches/patch_v1.0.18_v1.0.32.zip",
+          "size": 642557,
+          "sha256": "daeea7798a6ad7ea7bc579c6bfcf43894e9f2e66a9935fefc7782a1e22f0f825"
+        },
+        "v1.0.19": {
+          "url": "patches/patch_v1.0.19_v1.0.32.zip",
+          "size": 642529,
+          "sha256": "a9395c7c1563ce14f60062ad138dd7569fb3b22567911b9c51baf4abc8f7a260"
+        },
+        "v1.0.20": {
+          "url": "patches/patch_v1.0.20_v1.0.32.zip",
+          "size": 629656,
+          "sha256": "36115d74f53fc7437da88fca28d46f14a521400b438ccc3d5a4d6ac032d55b61"
+        },
+        "v1.0.21": {
+          "url": "patches/patch_v1.0.21_v1.0.32.zip",
+          "size": 628610,
+          "sha256": "d367a1687aa78015c5b4690b0e204637cd66a3aff2e3851218078b2a5b429207"
+        },
+        "v1.0.22": {
+          "url": "patches/patch_v1.0.22_v1.0.32.zip",
+          "size": 628610,
+          "sha256": "d367a1687aa78015c5b4690b0e204637cd66a3aff2e3851218078b2a5b429207"
+        },
+        "v1.0.23": {
+          "url": "patches/patch_v1.0.23_v1.0.32.zip",
+          "size": 633217,
+          "sha256": "6d75f5d72593971d1d30b7928b6a2565336d14f5cefe2cb056b46687a75c96c2"
+        },
+        "v1.0.24": {
+          "url": "patches/patch_v1.0.24_v1.0.32.zip",
+          "size": 633189,
+          "sha256": "48f563d8ef239ac5f53eb9cae358dad8f311307ccad00d8cfb5aa9b17915587c"
+        },
+        "v1.0.25": {
+          "url": "patches/patch_v1.0.25_v1.0.32.zip",
+          "size": 616448,
+          "sha256": "3604031649894684b4b1d52fedd7aab1476dec12f8df7f5d3b7fdd829c5d6e1d"
+        },
+        "v1.0.26": {
+          "url": "patches/patch_v1.0.26_v1.0.32.zip",
+          "size": 616448,
+          "sha256": "3604031649894684b4b1d52fedd7aab1476dec12f8df7f5d3b7fdd829c5d6e1d"
+        },
+        "v1.0.27": {
+          "url": "patches/patch_v1.0.27_v1.0.32.zip",
+          "size": 616448,
+          "sha256": "3604031649894684b4b1d52fedd7aab1476dec12f8df7f5d3b7fdd829c5d6e1d"
+        },
+        "v1.0.28": {
+          "url": "patches/patch_v1.0.28_v1.0.32.zip",
+          "size": 615887,
+          "sha256": "22ef723685c4566560081696233180a485abd53862b363dddc7c91b56ead95d7"
+        },
+        "v1.0.29": {
+          "url": "patches/patch_v1.0.29_v1.0.32.zip",
+          "size": 553698,
+          "sha256": "6fbd194b2779facaca075c050c2c47ea0e00cccdcb651f1c8bffd2729c5319e6"
+        },
+        "v1.0.30": {
+          "url": "patches/patch_v1.0.30_v1.0.32.zip",
+          "size": 553698,
+          "sha256": "6fbd194b2779facaca075c050c2c47ea0e00cccdcb651f1c8bffd2729c5319e6"
+        },
+        "v1.0.31": {
+          "url": "patches/patch_v1.0.31_v1.0.32.zip",
+          "size": 553698,
+          "sha256": "6fbd194b2779facaca075c050c2c47ea0e00cccdcb651f1c8bffd2729c5319e6"
+        },
+        "v1.0.6": {
+          "url": "patches/patch_v1.0.6_v1.0.32.zip",
+          "size": 773329,
+          "sha256": "cde6d766b00799b1335716bf7cb05fcdb15fbc6dbdd95d9bfb41e9e622041efa"
+        },
+        "v1.0.7": {
+          "url": "patches/patch_v1.0.7_v1.0.32.zip",
+          "size": 773329,
+          "sha256": "cde6d766b00799b1335716bf7cb05fcdb15fbc6dbdd95d9bfb41e9e622041efa"
+        },
+        "v1.0.8": {
+          "url": "patches/patch_v1.0.8_v1.0.32.zip",
+          "size": 769013,
+          "sha256": "6fab4c500988d7456a9c7973720cf9f572f38039617e36edc54aa03a090c704c"
+        },
+        "v1.0.9": {
+          "url": "patches/patch_v1.0.9_v1.0.32.zip",
+          "size": 769013,
+          "sha256": "1f97d49e313f75603b31de72194f77cc60b5ab6ad52073868fd94c77e455eb05"
         }
       }
     }
