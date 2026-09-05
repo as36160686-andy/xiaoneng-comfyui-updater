@@ -1,6 +1,6 @@
 {
-  "version": "v1.0.35",
-  "notes": "启动器单实例限制:重复双击只激活已开窗口,不再多开",
+  "version": "v1.0.36",
+  "notes": "启动进度条+加速;修复启动期拖动未响应;统一黑底图标;关于增加VX:ai-xiaoneng;移除赞助二维码;修复自更新",
   "base_url": "https://as36160686-andy.github.io/xiaoneng-comfyui-updater/",
   "mirrors": [
     "https://raw.githubusercontent.com/as36160686-andy/xiaoneng-comfyui-updater/main"
@@ -8,40 +8,19 @@
   "full_zip_url": "",
   "full_zip_urls": [],
   "patches": {
-    "v1.0.30": {
-      "url": "patches/patch_v1.0.30_v1.0.35.zip",
-      "size": 8462047,
-      "sha256": "63ddf57dff58d9413f9181ddda417e8a9016d48ba8a4bf49e9cc0b5d662da6a7",
-      "changed": 10,
-      "deleted": 4
-    },
-    "v1.0.31": {
-      "url": "patches/patch_v1.0.31_v1.0.35.zip",
-      "size": 8462047,
-      "sha256": "63ddf57dff58d9413f9181ddda417e8a9016d48ba8a4bf49e9cc0b5d662da6a7",
-      "changed": 10,
-      "deleted": 4
-    },
-    "v1.0.32": {
-      "url": "patches/patch_v1.0.32_v1.0.35.zip",
-      "size": 8462047,
-      "sha256": "2f0273d4b2b0bff2186f2ebf93ba068d67efacf197c25e9f5d7ed0f0204ebb24",
-      "changed": 10,
-      "deleted": 4
-    },
-    "v1.0.33": {
-      "url": "patches/patch_v1.0.33_v1.0.35.zip",
-      "size": 8462047,
-      "sha256": "2f0273d4b2b0bff2186f2ebf93ba068d67efacf197c25e9f5d7ed0f0204ebb24",
-      "changed": 10,
-      "deleted": 4
-    },
     "v1.0.34": {
-      "url": "patches/patch_v1.0.34_v1.0.35.zip",
-      "size": 8462047,
-      "sha256": "2f0273d4b2b0bff2186f2ebf93ba068d67efacf197c25e9f5d7ed0f0204ebb24",
-      "changed": 10,
+      "url": "patches/patch_v1.0.34_v1.0.36.zip",
+      "size": 9165768,
+      "sha256": "289ea63162922d2b4470b25517bbc7f7eb24a30d5eabbd98eefc73d2225b5b0d",
+      "changed": 14,
       "deleted": 4
+    },
+    "v1.0.35": {
+      "url": "patches/patch_v1.0.35_v1.0.36.zip",
+      "size": 9068733,
+      "sha256": "281f46e7ead9b79078d22eec4a00eda41436db8fec8e5619cf60765d27a890e3",
+      "changed": 8,
+      "deleted": 0
     }
   }
 }

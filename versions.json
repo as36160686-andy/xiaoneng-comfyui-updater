@@ -1,5 +1,5 @@
 {
-  "latest": "v1.0.35",
+  "latest": "v1.0.36",
   "versions": [
     {
       "version": "v1.0.8",
@@ -2272,6 +2272,24 @@
           "url": "patches/patch_v1.0.34_v1.0.35.zip",
           "size": 8462047,
           "sha256": "2f0273d4b2b0bff2186f2ebf93ba068d67efacf197c25e9f5d7ed0f0204ebb24"
+        }
+      }
+    },
+    {
+      "version": "v1.0.36",
+      "date": "2026-09-06",
+      "notes": "启动进度条+加速;修复启动期拖动未响应;统一黑底图标;关于增加VX:ai-xiaoneng;移除赞助二维码;修复自更新",
+      "snapshot_url": "snapshots/v1.0.36.zip",
+      "patches": {
+        "v1.0.34": {
+          "url": "patches/patch_v1.0.34_v1.0.36.zip",
+          "size": 9165768,
+          "sha256": "289ea63162922d2b4470b25517bbc7f7eb24a30d5eabbd98eefc73d2225b5b0d"
+        },
+        "v1.0.35": {
+          "url": "patches/patch_v1.0.35_v1.0.36.zip",
+          "size": 9068733,
+          "sha256": "281f46e7ead9b79078d22eec4a00eda41436db8fec8e5619cf60765d27a890e3"
         }
       }
     }
