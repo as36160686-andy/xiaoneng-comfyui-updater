@@ -1,5 +1,5 @@
 {
-  "latest": "v1.0.34",
+  "latest": "v1.0.35",
   "versions": [
     {
       "version": "v1.0.8",
@@ -2239,6 +2239,39 @@
           "url": "patches/patch_v1.0.9_v1.0.34.zip",
           "size": 769649,
           "sha256": "86150effe17b97fc44b410a5692d20397d2bac6797edb66f3651f1631f4d608b"
+        }
+      }
+    },
+    {
+      "version": "v1.0.35",
+      "date": "2026-09-06",
+      "notes": "启动器单实例限制:重复双击只激活已开窗口,不再多开",
+      "snapshot_url": "snapshots/v1.0.35.zip",
+      "patches": {
+        "v1.0.30": {
+          "url": "patches/patch_v1.0.30_v1.0.35.zip",
+          "size": 8462047,
+          "sha256": "63ddf57dff58d9413f9181ddda417e8a9016d48ba8a4bf49e9cc0b5d662da6a7"
+        },
+        "v1.0.31": {
+          "url": "patches/patch_v1.0.31_v1.0.35.zip",
+          "size": 8462047,
+          "sha256": "63ddf57dff58d9413f9181ddda417e8a9016d48ba8a4bf49e9cc0b5d662da6a7"
+        },
+        "v1.0.32": {
+          "url": "patches/patch_v1.0.32_v1.0.35.zip",
+          "size": 8462047,
+          "sha256": "2f0273d4b2b0bff2186f2ebf93ba068d67efacf197c25e9f5d7ed0f0204ebb24"
+        },
+        "v1.0.33": {
+          "url": "patches/patch_v1.0.33_v1.0.35.zip",
+          "size": 8462047,
+          "sha256": "2f0273d4b2b0bff2186f2ebf93ba068d67efacf197c25e9f5d7ed0f0204ebb24"
+        },
+        "v1.0.34": {
+          "url": "patches/patch_v1.0.34_v1.0.35.zip",
+          "size": 8462047,
+          "sha256": "2f0273d4b2b0bff2186f2ebf93ba068d67efacf197c25e9f5d7ed0f0204ebb24"
         }
       }
     }
