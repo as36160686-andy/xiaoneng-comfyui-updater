@@ -1,5 +1,5 @@
 {
-  "latest": "v1.0.36",
+  "latest": "v1.0.37",
   "versions": [
     {
       "version": "v1.0.8",
@@ -2290,6 +2290,24 @@
           "url": "patches/patch_v1.0.35_v1.0.36.zip",
           "size": 9068733,
           "sha256": "281f46e7ead9b79078d22eec4a00eda41436db8fec8e5619cf60765d27a890e3"
+        }
+      }
+    },
+    {
+      "version": "v1.0.37",
+      "date": "2026-09-06",
+      "notes": "启动器优化+黑底图标+自动修复comfyui-kjnodes的Sage注意力崩溃bug(含节点补丁,现有用户自动更新即得)",
+      "snapshot_url": "snapshots/v1.0.37.zip",
+      "patches": {
+        "v1.0.35": {
+          "url": "patches/patch_v1.0.35_v1.0.37.zip",
+          "size": 9098125,
+          "sha256": "db5f91b792d7b46b9cfac23072c7c3c66229cca43e2024c975101202a00dda06"
+        },
+        "v1.0.36": {
+          "url": "patches/patch_v1.0.36_v1.0.37.zip",
+          "size": 9015487,
+          "sha256": "589617962514394fdf8a4e7bfa26d9975a9de01963060ceabb02f4ee9f2b6255"
         }
       }
     }
